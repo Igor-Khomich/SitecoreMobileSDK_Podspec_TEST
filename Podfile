@@ -1,0 +1,1 @@
+pod 'Sitecore_iOS_SDK_framework', :podspec => 'Sitecore_iOS_SDK_framework.podspec'
