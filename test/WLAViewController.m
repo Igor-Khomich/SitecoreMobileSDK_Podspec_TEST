@@ -7,7 +7,6 @@
 //
 
 #import "WLAViewController.h"
-#import <SitecoreMobileSDK/SitecoreMobileSDK.h>
 
 @interface WLAViewController ()
 
