@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks  = 'SitecoreMobileSDK.framework'
   s.ios.frameworks = 'Foundation', 'Social', 'UIKit', 'CoreGraphics', 'CFNetwork', 'CoreMotion', 'CoreLocation', 'CoreMedia', 'CoreVideo', 'AddressBook', 'AudioToolbox', 'AddressBookUI', 'Twitter', 'MessageUI', 'MapKit', 'AVFoundation', 'EventKit', 'EventKitUI'
   s.ios.libraries = 'xml2', 'z', 'sqlite3', 'stdc++', 'iconv', 'c++'
-
+  s.ios.requires_arc = true
 end
