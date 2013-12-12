@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Sitecore Mobile SDK build for iOS"
   s.description  = "bla bla bla bla bla bla v bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
   s.homepage     = "https://github.com/Igor-Khomich/Sitecore_iOS_SDK_framework.git"
-  s.license             = 'some licence info'
+  s.license      = 'some licence info'
   s.source       = { :git => "https://github.com/Igor-Khomich/Sitecore_iOS_SDK_framework.git",}
 
   s.authors       =  {'name1' => 'mail1@mail.com', 'name2' => 'mail2@mail.com'}
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks  = 'SitecoreMobileSDK.framework'
   s.ios.frameworks = 'Foundation', 'Social', 'UIKit', 'CoreGraphics', 'CFNetwork', 'CoreMotion', 'CoreLocation', 'CoreMedia', 'CoreVideo', 'AddressBook', 'AudioToolbox', 'AddressBookUI', 'Twitter', 'MessageUI', 'MapKit', 'AVFoundation', 'EventKit', 'EventKitUI'
   s.ios.libraries = 'xml2', 'z', 'sqlite3', 'stdc++', 'iconv', 'c++'
-  spec.prefix_header_contents = '#import <SitecoreMobileSDK/SitecoreMobileSDK.h>'
+
 end
